@@ -127,19 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BigInt.cpp" />
     <ClCompile Include="FileDescripter.cpp" />
     <ClCompile Include="MemoryAllocator.cpp" />
     <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="Size2D.cpp" />
     <ClCompile Include="SurfaceT.cpp" />
+    <ClCompile Include="Vector.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BigInt.h" />
     <ClInclude Include="FileDescripter.h" />
     <ClInclude Include="MemoryAllocator.h" />
     <ClInclude Include="Point2D.h" />
     <ClInclude Include="Size2D.h" />
     <ClInclude Include="SurfaceT.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

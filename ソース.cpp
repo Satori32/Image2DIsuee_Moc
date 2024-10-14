@@ -3,6 +3,7 @@
 #include "SurfaceT.h"
 #include "Point2D.h"
 #include "Size2D.h"
+#include "BigInt.h"
 
 template<class T>
 struct  Image2D
